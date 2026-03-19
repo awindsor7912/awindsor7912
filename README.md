@@ -34,19 +34,19 @@ Process Optimization
 ## 🚀 Featured Case Studies
 
 ### 🏗️ Billing Operations Management System (BOMS)
-**Category:** Enterprise Workflow Orchestration | [cite_start]**Impact:** 25+ Hours Saved Weekly [cite: 1046, 1089]
-* [cite_start]**The Problem:** High-volume, unstructured email intake led to limited workload visibility and significant administrative bottlenecks [cite: 933, 1061, 1067-1070].
-* [cite_start]**The Solution:** A layered, event-driven automation engine built on the **Microsoft Power Platform**[cite: 17, 530, 932, 1063].
-* [cite_start]**Key Innovation:** Architected a **Configuration-Driven Routing Model** to decouple role assignments from automation logic, ensuring long-term system maintainability[cite: 20, 259, 442, 1104].
-* [cite_start]**Tech Stack:** Power Automate, SharePoint Online, Power BI [cite: 17, 68-72, 940-945, 1063].
+**Category:** Enterprise Workflow Orchestration | **Impact:** 25+ Hours Saved Weekly
+* **The Problem:** High-volume, unstructured email intake led to limited workload visibility and significant administrative bottlenecks.
+* **The Solution:** A layered, event-driven automation engine built on the **Microsoft Power Platform**.
+* **Key Innovation:** Architected a **Configuration-Driven Routing Model** to decouple role assignments from automation logic, ensuring long-term system maintainability.
+* **Tech Stack:** Power Automate, SharePoint Online, Power BI.
 * 🔗 **[View the Repository](https://github.com/awindsor7912/billing-operations-management-system)**
 
 ### 📦 Equipment Management Portal (EMP)
-**Category:** Asset Lifecycle & Data Governance | [cite_start]**Impact:** Normalized Legacy Data Fragmentation [cite: 1117, 1212-1215]
+**Category:** Asset Lifecycle & Data Governance | **Impact:** Normalized Legacy Data Fragmentation.
 * **The Problem:** Disparate regional spreadsheets created data silos and inhibited executive-level financial visibility.
-* [cite_start]**The Solution:** A model-driven EAM-lite system built on **Microsoft Dataverse** to centralize asset tracking and maintenance logs[cite: 1116, 1209, 1234, 1388].
+* **The Solution:** A model-driven EAM-lite system built on **Microsoft Dataverse** to centralize asset tracking and maintenance logs.
 * **Key Innovation:** Engineered an **Overlay Soft-Close Rule** and custom Power Automate logic to bypass platform retrieval limits for accurate fleet-wide KPI calculations.
-* [cite_start]**Tech Stack:** Dataverse, Power Apps (Model-Driven), Power Automate [cite: 1135, 1233-1235].
+* **Tech Stack:** Dataverse, Power Apps (Model-Driven), Power Automate.
 * 🔗 **[View the Repository](https://github.com/awindsor7912/equipment-management-portal)**
 
 ### 🧶 The Master's Loom
@@ -74,6 +74,20 @@ Areas of interest:
 Building automation and operational systems that improve visibility, reduce manual workload, and enable teams to operate more efficiently.
 
 ---
+
+## 🛠️ Technical Toolbox
+
+| Category | Technologies |
+| :--- | :--- |
+| **Workflow & ERP** | Power Automate, Power Apps, SharePoint, IBM Maximo Application Suite |
+| **Data & Analytics** | Dataverse, SQL (Mirroring), NoSQL (Firebase), Power BI |
+| **Architecture** | Event-Driven Design, Configuration-Driven Logic, RBAC |
+| **Development** | (Learning): Flutter, Dart, Python, REST API Integration |
+
+---
+
+## 📈 Professional Philosophy
+> "Systems should serve the user, not the other way around. My objective is always to engineer out the 'busy work' so that specialists can focus on high-impact analysis and decision-making."
 
 ## Connect With Me
 
