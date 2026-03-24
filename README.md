@@ -55,6 +55,7 @@ Process Optimization
 * **The Solution:** A centralized suite of automated Power BI dashboards powered by event-driven ETL pipelines and secure, relational semantic models.
 * **Key Innovation:** Developed a **Dual-Layer Analytics Hub** that integrates a personalized, RLS-secured workflow monitor with a macro-level revenue pipeline featuring fully automated email-to-dashboard data ingestion.
 * **Tech Stack:** Power BI (DAX), Power Automate, SharePoint Online, Excel.
+* 🔗 **[View the Repository](https://awindsor7912.github.io/Operations-Analytics-Portfolio/)**
 
 ### 🧶 The Master's Loom
 **Category:** Real-Time Systems & AI Integration | **Impact:** Sub-100ms Latency State Sync
