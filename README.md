@@ -49,6 +49,13 @@ Process Optimization
 * **Tech Stack:** Dataverse, Power Apps (Model-Driven), Power Automate.
 * 🔗 **[View the Repository](https://github.com/awindsor7912/equipment-management-portal)**
 
+### 📊 Operations Analytics Portfolio
+**Category:** Business Intelligence & ETL Automation | **Impact:** Eliminated manual, excel-based data analysis and provided cohesive visibility across datasets that previously was not available to the administrative and management team. 
+* **The Problem:** Fragmented billing workflows and manual daily reporting created significant visibility gaps in "unbilled revenue" and posed data security risks.
+* **The Solution:** A centralized suite of automated Power BI dashboards powered by event-driven ETL pipelines and secure, relational semantic models.
+* **Key Innovation:** Developed a **Dual-Layer Analytics Hub** that integrates a personalized, RLS-secured workflow monitor with a macro-level revenue pipeline featuring fully automated email-to-dashboard data ingestion.
+* **Tech Stack:** Power BI (DAX), Power Automate, SharePoint Online, Excel.
+
 ### 🧶 The Master's Loom
 **Category:** Real-Time Systems & AI Integration | **Impact:** Sub-100ms Latency State Sync
 * **The Problem:** Static, manual tracking in TTRPG environments breaks narrative immersion.
