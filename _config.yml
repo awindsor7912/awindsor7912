@@ -1,6 +1,6 @@
-title: "Ashley Windsor"
-description: "Repository collection showcasing operational analytics, automation, reporting, and workflow improvement projects."
-baseurl: "/awindsor7912"
+title: "Ashley Windsor | Operations & Analytics Portfolio"
+description: "Operations and Automation Analyst portfolio focused on workflow automation, operational analytics, reporting systems, and process improvement."
+baseurl: ""
 url: "https://awindsor7912.github.io"
 
 markdown: kramdown
@@ -16,10 +16,12 @@ defaults:
       layout: default
 
 navigation:
-  - title: Home
-    url: /
+  - title: Overview
+    url: /#overview
   - title: Projects
     url: /#projects
+  - title: Impact
+    url: /#impact
   - title: Skills
     url: /#skills
   - title: Contact
