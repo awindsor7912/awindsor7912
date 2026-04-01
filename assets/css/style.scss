@@ -59,7 +59,6 @@ img {
   margin: 0 auto;
 }
 
-/* Header */
 .site-header {
   position: sticky;
   top: 0;
@@ -118,12 +117,10 @@ img {
   color: var(--primary);
 }
 
-/* Layout */
 .page-content {
   padding: 0 0 4rem;
 }
 
-/* Hero */
 .hero {
   padding: 5rem 0 3rem;
   background:
@@ -221,6 +218,15 @@ img {
   box-shadow: var(--shadow);
 }
 
+.profile-img {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border);
+}
+
 .metric-list {
   display: grid;
   gap: 1rem;
@@ -253,7 +259,6 @@ img {
   letter-spacing: -0.02em;
 }
 
-/* Sections */
 .section {
   padding: 3.5rem 0 0;
 }
@@ -275,7 +280,6 @@ img {
   max-width: 72ch;
 }
 
-/* Cards */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -342,7 +346,6 @@ img {
   font-weight: 700;
 }
 
-/* Highlight band */
 .band {
   margin-top: 3rem;
   padding: 1.6rem;
@@ -361,14 +364,12 @@ img {
   color: var(--muted);
 }
 
-/* Skills list */
 .skill-list {
   display: flex;
   flex-wrap: wrap;
   gap: 0.65rem;
 }
 
-/* Footer */
 .site-footer {
   margin-top: 4rem;
   padding: 2rem 0 3rem;
@@ -398,7 +399,6 @@ img {
   font-weight: 700;
 }
 
-/* Markdown content defaults */
 .page-content .container ul,
 .page-content .container ol {
   color: var(--text);
@@ -410,7 +410,6 @@ img {
   margin: 2rem 0;
 }
 
-/* Responsive */
 @media (max-width: 900px) {
   .hero-shell {
     grid-template-columns: 1fr;
@@ -442,5 +441,11 @@ img {
 
   .site-nav {
     gap: 0.8rem;
+  }
+
+  .profile-img {
+    max-height: 260px;
+  }
+}
   }
 }
