@@ -10,14 +10,14 @@
 <body>
   <header class="site-header">
     <div class="container nav-shell">
-      <a class="brand" href="/">
+      <a class="brand" href="#home">
         <span class="brand-mark">AW</span>
         <span class="brand-text">Ashley Windsor | Operations &amp; Analytics Portfolio</span>
       </a>
 
       <nav class="site-nav" aria-label="Primary">
+        <a href="#home">Home</a>
         <a href="#projects">Projects</a>
-        <a href="#focus">Focus</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -25,46 +25,42 @@
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero-shell">
-        <div class="hero-copy">
+    <section class="hero-banner" id="home">
+      <div class="hero-banner-image">
+        <img src="/project_showcase.png" alt="Portfolio showcase banner">
+        <div class="hero-banner-overlay"></div>
+      </div>
+
+      <div class="container hero-banner-content">
+        <div class="hero-card">
           <span class="kicker">Operations Analytics &amp; Workflow Automation</span>
-          <h1>Building workflow systems and reporting solutions that improve operational visibility.</h1>
-          <p class="hero-lead">
-            Operations and Automation Analyst with hands-on experience designing structured workflows,
-            reporting systems, and process improvements that reduce manual effort and improve execution.
+          <h1>A portfolio built around process improvement, automation, and operational visibility.</h1>
+          <p>
+            Operations and Automation Analyst building workflow systems and reporting solutions that reduce manual effort, improve execution, and create more structured business processes.
           </p>
-          <p class="hero-impact">
-            Delivered automation solutions that reduced billing processing effort by <strong>60%+</strong>,
-            saving <strong>25+ hours per week</strong>.
+          <p class="hero-metric">
+            Delivered automation solutions that reduced billing processing effort by <strong>60%+</strong>, saving <strong>25+ hours per week</strong>.
           </p>
 
           <div class="hero-actions">
             <a class="button button-primary" href="#projects">View Projects</a>
-            <a class="button button-secondary" href="https://www.linkedin.com/in/ashleydwindsor">View LinkedIn</a>
-          </div>
-        </div>
-
-        <div class="hero-visual-wrap">
-          <div class="hero-visual-glow"></div>
-          <div class="hero-visual-card">
-            <img src="/project_showcase.png" alt="Portfolio project showcase" class="hero-showcase" />
+            <a class="button button-secondary" href="https://www.linkedin.com/in/ashleydwindsor">LinkedIn</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="stats-bar" id="focus">
-      <div class="container stats-shell">
-        <article class="stat-item">
+    <section class="section quick-stats">
+      <div class="container stats-grid">
+        <article class="stat-card">
           <span class="stat-label">Measured Impact</span>
           <span class="stat-value">60%+ reduction in manual processing</span>
         </article>
-        <article class="stat-item">
+        <article class="stat-card">
           <span class="stat-label">Time Savings</span>
           <span class="stat-value">25+ hours saved per week</span>
         </article>
-        <article class="stat-item">
+        <article class="stat-card">
           <span class="stat-label">Core Stack</span>
           <span class="stat-value">Power BI · Power Automate · SharePoint · SQL (basic)</span>
         </article>
@@ -75,15 +71,14 @@
       <div class="container">
         <div class="section-header">
           <span class="section-kicker">Featured Work</span>
-          <h2>Project portfolio</h2>
+          <h2>Projects</h2>
           <p>
-            Selected portfolio projects demonstrating workflow automation, operational reporting,
-            systems thinking, and structured process improvement.
+            Portfolio projects demonstrating workflow automation, reporting, systems thinking, and structured process improvement.
           </p>
         </div>
 
         <div class="project-grid">
-          <article class="project-card project-card-featured">
+          <article class="project-card project-card-wide">
             <div class="card-meta">
               <span class="tag">Workflow Automation</span>
               <span class="tag">SharePoint</span>
@@ -91,13 +86,12 @@
             </div>
             <h3>Billing Operations Management System (BOMS)</h3>
             <p>
-              Built a centralized workflow system to replace manual billing tracking, standardize process execution,
-              and improve visibility into workflow status, ownership, and deadlines.
+              Centralized workflow system built to replace manual billing tracking, improve visibility into workflow status, and reduce repetitive administrative effort.
             </p>
             <ul>
               <li>Reduced manual processing time by approximately 60%.</li>
-              <li>Eliminated an estimated 25+ hours per week of repetitive administrative effort.</li>
-              <li>Improved workflow consistency, control, and accountability.</li>
+              <li>Eliminated an estimated 25+ hours per week of repetitive work.</li>
+              <li>Improved workflow consistency, ownership, and control.</li>
             </ul>
             <div class="project-links">
               <a href="/billing-operations-management-system/">View Project</a>
@@ -112,8 +106,7 @@
             </div>
             <h3>Equipment Management Portal (EMP)</h3>
             <p>
-              Designed a centralized equipment tracking model to replace fragmented spreadsheet-based processes
-              with a more scalable and structured data management approach.
+              Centralized equipment tracking concept designed to replace fragmented spreadsheet-based processes with a more structured data model.
             </p>
             <div class="project-links">
               <a href="/equipment-management-portal/">View Project</a>
@@ -128,8 +121,7 @@
             </div>
             <h3>Operations Analytics Portfolio</h3>
             <p>
-              Reporting and dashboard portfolio work focused on KPI visibility, business usability,
-              and operational performance analysis.
+              Reporting and dashboard work focused on KPI visibility, business usability, and operational performance analysis.
             </p>
             <div class="project-links">
               <a href="/Operations-Analytics-Portfolio/">View Project</a>
@@ -144,8 +136,7 @@
             </div>
             <h3>The Master’s Loom</h3>
             <p>
-              Structured learning project used to develop skills in app planning, data modeling,
-              system architecture, and technical documentation.
+              Structured learning project focused on app planning, data modeling, system architecture, and technical documentation.
             </p>
             <div class="project-links">
               <a href="/the-master-s-loom/">View Project</a>
@@ -157,18 +148,17 @@
     </section>
 
     <section class="section about-section" id="about">
-      <div class="container about-shell">
+      <div class="container about-grid">
         <div class="about-card">
-          <span class="section-kicker">Professional Profile</span>
-          <h2>About</h2>
+          <div class="section-header section-header-tight">
+            <span class="section-kicker">Professional Profile</span>
+            <h2>About</h2>
+          </div>
           <p>
-            My work sits at the intersection of operations, analytics, and workflow design. I focus on
-            improving how teams execute recurring work by reducing manual effort, increasing visibility,
-            and building more structured systems.
+            My work sits at the intersection of operations, analytics, and workflow design. I focus on improving how recurring business processes are executed by reducing manual effort, increasing visibility, and building more structured systems.
           </p>
           <p>
-            Core strengths include workflow automation, operational reporting, process standardization,
-            and translating business needs into practical technical solutions.
+            Core strengths include workflow automation, operational reporting, process standardization, and translating business needs into practical technical solutions.
           </p>
 
           <div class="skill-list">
@@ -183,29 +173,25 @@
           </div>
         </div>
 
-        <div class="profile-card">
-          <img src="/pfp.png" alt="Ashley Windsor" class="profile-img" />
-          <div class="profile-copy">
-            <span class="profile-label">Primary Focus</span>
+        <div class="mini-profile-card">
+          <img src="/pfp.png" alt="Ashley Windsor" class="mini-profile-img" />
+          <div class="mini-profile-copy">
+            <span class="mini-profile-label">Primary Focus</span>
             <h3>Operations Analytics &amp; Workflow Automation</h3>
-            <p>
-              Building structured solutions that improve operational visibility, reduce manual workload,
-              and support scalable process execution.
-            </p>
           </div>
         </div>
       </div>
     </section>
 
     <section class="section contact-section" id="contact">
-      <div class="container contact-shell">
-        <div class="section-header section-header-compact">
+      <div class="container">
+        <div class="section-header section-header-tight">
           <span class="section-kicker">Contact</span>
-          <h2>Professional links</h2>
+          <h2>Professional Links</h2>
           <p>Portfolio access, project source, and professional profile.</p>
         </div>
 
-        <div class="contact-cards">
+        <div class="contact-grid">
           <article class="contact-card">
             <h3>GitHub</h3>
             <p>Portfolio repositories and project documentation.</p>
@@ -214,7 +200,7 @@
 
           <article class="contact-card">
             <h3>LinkedIn</h3>
-            <p>Professional experience and background.</p>
+            <p>Professional background and current experience.</p>
             <a href="https://www.linkedin.com/in/ashleydwindsor">View LinkedIn</a>
           </article>
         </div>
